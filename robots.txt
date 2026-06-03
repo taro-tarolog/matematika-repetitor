@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://matematika-repetitor.vercel.app/sitemap.xml
