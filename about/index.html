@@ -28,7 +28,7 @@
   "name": "Виктор Лазарев",
   "jobTitle": "Репетитор по математике",
   "url": "https://matematika-repetitor.vercel.app/about/",
-  "image": "https://matematika-repetitor.vercel.app/og-image.png",
+  "image": "https://matematika-repetitor.vercel.app/viktor.jpg",
   "description": "Репетитор по профильной математике с опытом более 10 лет. Готовит школьников к ЕГЭ и ОГЭ.",
   "knowsAbout": ["Математика", "Подготовка к ЕГЭ", "Подготовка к ОГЭ", "Профильная математика"],
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "Механико-математический факультет" },
@@ -94,13 +94,24 @@
         <a href="/contacts/" class="btn btn-lg">Записаться на занятие</a>
       </div>
     </div>
-    <aside class="scorecard">
-      <h3>Коротко обо мне</h3>
-      <div class="score-row"><span>Опыт преподавания</span><span class="grade">10+</span></div>
-      <div class="score-row"><span>Подготовлено учеников</span><span class="grade">200+</span></div>
-      <div class="score-row"><span>Средний балл ЕГЭ</span><span class="grade big">82</span></div>
-      <div class="score-row"><span>Формат</span><span style="font-weight:600">Онлайн</span></div>
-    </aside>
+    <figure class="photo-frame" style="margin:0">
+      <img src="/viktor.jpg" alt="Виктор Лазарев — репетитор по математике" width="640" height="640">
+      <figcaption class="photo-cap">
+        <b>Виктор Лазарев</b>
+        <span>Репетитор по математике · ЕГЭ и ОГЭ</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="container">
+    <div class="stat-strip">
+      <div class="st"><div class="n">10+</div><div class="l">лет преподаю математику</div></div>
+      <div class="st"><div class="n">200+</div><div class="l">учеников сдали экзамен</div></div>
+      <div class="st"><div class="n">82</div><div class="l">средний балл ЕГЭ</div></div>
+      <div class="st"><div class="n">Онлайн</div><div class="l">занятия по всей России</div></div>
+    </div>
   </div>
 </section>
 
@@ -188,7 +199,14 @@
 
 <script>
   const t = document.querySelector('.nav-toggle'), m = document.querySelector('.nav-links');
-  t.addEventListener('click', () => { const o = m.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+  const HAM = '<path d="M4 6h16M4 12h16M4 18h16" stroke-width="2"/>';
+  const CLOSE = '<path d="M6 6l12 12M18 6 6 18" stroke-width="2"/>';
+  t.addEventListener('click', () => {
+    const o = m.classList.toggle('open');
+    t.setAttribute('aria-expanded', o);
+    t.querySelector('svg').innerHTML = o ? CLOSE : HAM;
+    document.body.style.overflow = o ? 'hidden' : '';
+  });
 </script>
 </body>
 </html>
