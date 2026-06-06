@@ -409,3 +409,7 @@ section { padding: 58px 0; }
 
 @media (max-width: 900px) { .stat-strip { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .stat-strip { grid-template-columns: repeat(2, 1fr); } }
+
+/* Фикс: в CTA-блоке внутри статьи текст должен оставаться светлым
+   (иначе правило .article p делает его тёмным на тёмном фоне) */
+.article .cta-band p { color: #C9CDD9; }
