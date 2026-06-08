@@ -43,13 +43,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://matematika-repetitor.vercel.app/blog/kak-reshat-ekonomicheskuyu-zadachu-ege-15/</loc>
+    <loc>https://matematika-repetitor.vercel.app/blog/letovo-matematika/</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://matematika-repetitor.vercel.app/blog/letovo-matematika/</loc>
+    <loc>https://matematika-repetitor.vercel.app/blog/dvi-mgu-matematika/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://matematika-repetitor.vercel.app/blog/litsey-vshe-matematika/</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
