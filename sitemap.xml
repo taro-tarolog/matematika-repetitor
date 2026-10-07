@@ -366,4 +366,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://matematika-repetitor.vercel.app/blog/podgotovka-k-oge-po-matematike-za-3-mesyatsa/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
