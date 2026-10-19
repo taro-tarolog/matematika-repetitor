@@ -396,4 +396,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://matematika-repetitor.vercel.app/blog/repetitor-dlya-postupleniya-v-vuz-na-byudzhet/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
